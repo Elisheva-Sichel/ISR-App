@@ -43,9 +43,7 @@ body {
   }
   
   #t tr{color: #ddd;}
-  
-  /* #t tr:hover {background-color: #ddd;} */
-  
+    
   #t th {
     padding-top: 5px;
     padding-bottom: 5px;

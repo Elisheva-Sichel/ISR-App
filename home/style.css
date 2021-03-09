@@ -74,16 +74,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
   text-align: center;
   
 }
-/* tr{
-  color: white;
-}
-td{
-  color: white;
-}
-th{
-  color: white;
-  
-} */
 .table-pos{
   position: absolute;
   top: 20%;
@@ -100,13 +90,3 @@ th{
 table{
   width: 20%;
 }
-/* .key{
-  position: absolute;
-  border: black;
-  border-radius: 3px;
-  border-style:solid;
-  width: 120px;
-  color: #e6e6e6;
-  text-align: center;
-  left: 80px;
-} */

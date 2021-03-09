@@ -31,7 +31,6 @@ function binTohex(bin) {
     for (var i = 0; i <bin.length; i += BITS_OF_HEX) {
         result = result + binTohex_digit(bin.substr(i, BITS_OF_HEX))
     }
-    //result = result + binTohex_digit(bin.substr(0, i))
     return result
 }
 function appendTable(keys, values) {
