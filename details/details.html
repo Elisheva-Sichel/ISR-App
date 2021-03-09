@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="details.css">
+    <img src="../logo.png" style="top: 0%; left: 0%"><img>
+    <div class="details" id="details">
+        <h1 class="title">details</h1>
+        <form action="">
+            <h4>first name</h4>
+            <input id="name" type="text"  placeholder="first name" required="required" />
+            <h4>last name</h4>
+            <input type="text"  placeholder="last name" required="required" />
+            <h4>age</h4>
+            <input type="text"  placeholder="age" required="required" />
+            <h4>id</h4>
+            <input id= "id" type="number" placeholder="id" required="required" style="-webkit-appearance: none;"/>
+            <button class="btn btn-primary btn-block btn-large btn-pos" onclick="func(document.getElementById('id').value,document.getElementById('name').value)">הרשמה</button>
+
+        </form>
+    </div>
+    
+    <h1 id="bless"></h1>
+    
+<script src="details.js">
+    
+</script>
+</html>
